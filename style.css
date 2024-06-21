@@ -30,7 +30,7 @@ body {
   align-content: center;
   background-color: hsl(228, 56%, 26%);
   width: 500px;
-  height: 150px;
+  height: 170px;
   border-radius: 15px 50px 30px 5px;
 }
 div#imgDiv {
@@ -53,12 +53,13 @@ img#folder {
   align-items: center;
   background-color: hsl(228, 56%, 26%);
   border-radius: 3%;
-  width: 450px;
-  /* height: 100%; */
+  width: 500px;
+  height: 150px;
   margin-left: 15px;
   font-family: "Raleway", sans-serif;
   font-weight: 400;
   color: hsl(243, 100%, 93%);
+  border-radius: 3%;
 }
 
 #fylo {
@@ -83,3 +84,21 @@ p {
   /* margin: 40px; */
   background-color: lightyellow;
 }
+
+.gb{
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+}
+
+.gbDiv{
+  display: flex;
+}
+
+.gbLeft{
+  margin: 0%;
+}
+
+pre{
+  margin: 0%;
+}
+
