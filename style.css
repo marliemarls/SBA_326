@@ -60,6 +60,7 @@ img#folder {
   font-weight: 400;
   color: hsl(243, 100%, 93%);
   border-radius: 3%;
+  margin-top: 3%;
 }
 
 #fylo {
@@ -93,10 +94,11 @@ p {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   border-radius: 16px;
-  left: 0;
   border-bottom-right-radius: 0;
+  width: 200px;
+  height: fit-content;
 }
 
 .gb{
@@ -112,8 +114,10 @@ p {
 .gbLeft{
   margin: 0%;
   font-size: 24px;
+  font-weight: 800;
   color:  hsl(229, 57%, 11%);
 }
+
 
 pre{
   margin: 0%;
